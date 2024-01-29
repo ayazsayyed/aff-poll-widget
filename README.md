@@ -56,4 +56,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
   - With multple poll widget on same page  
     ![image](https://github.com/ayazsayyed/aff-poll-widget/assets/31244250/f871a045-b263-437a-8e97-a412e66d14e9)
 
-
+### Hosted on [Netlify](https://aff-pollwidget.netlify.app/)  
+#### Following features to be added incrementally
+  - Expired poll
+  - Disbaled poll option  
