@@ -1,6 +1,6 @@
 # AFF-POLL-WIDGET
 
-This project is a assignment.
+This project is an assignment.
 
 ## Available Scripts
 
