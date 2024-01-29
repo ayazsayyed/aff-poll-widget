@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# AFF-POLL-WIDGET
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a assignment.
 
 ## Available Scripts
 
@@ -29,42 +29,32 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Steps to run this project locally
+  -  Clone the repo `[npm test](https://github.com/ayazsayyed/aff-poll-widget.git)https://github.com/ayazsayyed/aff-poll-widget.git`
+  -  Run `npm install` to install all the dependencies
+  -  Build the dev server by running `npm run dev`, which will open up a dev server on your localhost:3000
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Steps to add a new widget 
+  - Open `public/index.html` and add a new widget with below mentioned configurations.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+| Param              | Desc                          | type     |
+| ------------------ | ----------------------------- | -------- |
+| data-widget-id     | A unique Poll id              | `String` |
+| data-poll-question | A Poll/ Question to be hosted | `String` |
+| data-poll-options  | Options for the poll          | `Array`  |
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Steps to test a component
+  - Run `npm run test` to run the test cases for the component.
 
-## Learn More
+## Few images for reference
+  - Initial state with no votes.  
+    ![image](https://github.com/ayazsayyed/aff-poll-widget/assets/31244250/a53d674d-75e7-4331-b98a-c60967900ae1)  
+  - Active state  
+    ![image](https://github.com/ayazsayyed/aff-poll-widget/assets/31244250/9ba4085d-6697-4a9f-8aa0-5ba1ba407f96)  
+  - With multiple state  
+    ![image](https://github.com/ayazsayyed/aff-poll-widget/assets/31244250/d33a0cdd-9bb5-4460-a276-ed1a1cd029cf)  
+  - With multple poll widget on same page  
+    ![image](https://github.com/ayazsayyed/aff-poll-widget/assets/31244250/f871a045-b263-437a-8e97-a412e66d14e9)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
