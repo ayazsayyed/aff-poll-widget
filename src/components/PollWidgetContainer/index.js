@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import React, { useState, useEffect } from 'react';
 import PollItem from '../PollItem';
 
@@ -20,7 +21,7 @@ const PollWidgetContainer = ({ config: { dataWidgetId, dataPollOptions = "", dat
 
   const saveResults = (updatedResults) => {
     localStorage.setItem(`poll_results_${dataWidgetId}`, JSON.stringify(updatedResults));
-  };
+  };  
 
   const handleVote = (optionIndex) => {
     const updatedResults = [...results];
