@@ -29,9 +29,8 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-
 ## Steps to run this project locally
-  -  Clone the repo `[npm test](https://github.com/ayazsayyed/aff-poll-widget.git)https://github.com/ayazsayyed/aff-poll-widget.git`
+  -  Clone the repo `https://github.com/ayazsayyed/aff-poll-widget.git`
   -  Run `npm install` to install all the dependencies
   -  Build the dev server by running `npm run dev`, which will open up a dev server on your localhost:3000
 
